@@ -1,5 +1,6 @@
 
-const API_BASE_URL = "http://localhost:5000/api";
+const API_BASE_URL = 
+  "https://online-learning-platform-production-af0daed9.up.railway.app/api";;
 
 export async function apiRequest(endpoint, options = {}) {
   const response = await fetch(`${API_BASE_URL}${endpoint}`, {

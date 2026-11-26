@@ -12,11 +12,9 @@ const mongoose = require("mongoose");
 
 const authRoutes = require("./routes/auth");
 const courseRoutes = require("./routes/courses");
-
+// Allow local development and the deployed frontend.
 const app = express();
 const PORT = process.env.PORT || 5000;
-
-// Allow local development and the deployed frontend.
 const allowedOrigins = [
   "http://localhost:5173",
   "http://localhost:5174",
