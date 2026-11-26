@@ -1277,3 +1277,62 @@ button:disabled {
     padding: 24px 18px;
   }
 }
+
+/* Forma In-App Lesson Reader */
+
+.course-resources {
+  display: grid;
+  gap: 14px;
+  padding: 0;
+  margin-top: 18px;
+}
+
+.course-resource {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 18px;
+  border: 1px solid #e2e9e3;
+  border-radius: 9px;
+  background: #fff;
+}
+
+.course-resource h4 {
+  margin: 0;
+  color: #203a2a;
+  font: 700 16px "Plus Jakarta Sans", sans-serif;
+}
+
+.course-resource p {
+  margin: 0;
+  color: #748078;
+  font-size: 13px;
+  line-height: 1.7;
+}
+
+.course-resource > span {
+  padding: 5px 9px;
+  border-radius: 5px;
+  color: #176b35;
+  background: #e8f5ec;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.course-resource a {
+  display: inline-block;
+  padding: 9px 13px;
+  border-radius: 6px;
+  color: #fff;
+  background: #16834a;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.course-resource a:hover {
+  background: #116b3b;
+}
+
